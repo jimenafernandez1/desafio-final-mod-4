@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <!-- Estilos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
+  rel="stylesheet">
+
+  <!-- Componentes -->
+  <link rel="stylesheet" href="./components/header.css">
+  <script defer src="./components/header.js"></script>
+
+  <link rel="stylesheet" href="./components/contact-form.css">
+  <script defer src="./components/contact-form.js"></script>
+  
+  <link rel="stylesheet" href="./components/footer.css">
+  <script defer src="./components/footer.js"></script>
+  
+  <!-- Página -->
+  <link rel="stylesheet" href="./pages/index.css">
+  <script defer src="./pages/index.js"></script>
+</head>
+<body>
+  <!-- Bienvenida -->
+  <section class="welcome" style="background-image: url('');">
+    <header class="header-container"></header>
+    <div class="welcome-container"></div>
+    </section>
+    
+    <template id="welcome-template">
+    <div class="welcome__content">
+      <h2 class="welcome__content-title"></h2>
+      <h3 class="welcome__content-subtitle"></h3>
+    </div>
+  </template>
+
+  <!-- Presentación -->
+  <section class="presentation">
+    <div class="presentation-container"></div>
+    </section>
+    
+    <template id="presentation-template">
+      <img class="presentation__img" src="" alt="avatar">
+      <div class="presentation__content">
+      <h3 class="presentation__title title"></h3>
+      <p class="presentation__text text"></p>
+      </div>
+  </template>
+
+  <!-- Servicios -->
+  <section class="my-services">
+    <h3 class="title my-services__title">Mis servicios</h3>
+    <div class="my-services-container"></div>
+    </section>
+    
+    <template id="my-services-template">
+      <div class="my-services__service-container">
+      <img class="my-services__img" src="" alt="book">
+      <h4 class="my-services__subtitle"></h4>
+      <p class="text my-services__text"></p>
+      </div>
+  </template>
+
+  <!-- Formulario de contacto -->
+  <section class="contact-form-container"></section>
+
+  <!-- Footer -->
+  <footer class="footer-container"></footer>
+</body>
+</html>
